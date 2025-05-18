@@ -1,0 +1,2927 @@
+[2025-05-18 02:13:49] Accès non autorisé - redirection vers la page de connexion
+[2025-05-18 02:13:55] Accès non autorisé - redirection vers la page de connexion
+[2025-05-18 02:37:15] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 02:37:15] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 02:37:15] Consultant: 'Riz Ivan'
+[2025-05-18 02:37:15] Date: '2025-06-01', Time: '15:30:00'
+[2025-05-18 02:37:15] Status: 'confirmed'
+[2025-05-18 02:37:15] PHPMailer instance created
+[2025-05-18 02:37:15] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 02:37:15] SMTP mode set
+[2025-05-18 02:37:15] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 02:37:15] 
+=== Preparing to send email ===
+[2025-05-18 02:37:15] To: ryzenshimura@gmail.com
+[2025-05-18 02:37:15] Subject: Appointment Status Update: Confirmed
+[2025-05-18 02:37:15] SMTP Debug: Enabled
+[2025-05-18 02:37:15] Calling send() method...
+[2025-05-18 02:37:18] send() method completed. Result: true
+[2025-05-18 02:37:18] Error Info: 
+[2025-05-18 02:37:18] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 02:52:55] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 02:52:55] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 02:52:55] Consultant: 'Riz Ivan'
+[2025-05-18 02:52:55] Date: '2025-06-01', Time: '15:30:00'
+[2025-05-18 02:52:55] Status: 'cancelled'
+[2025-05-18 02:52:55] PHPMailer instance created
+[2025-05-18 02:52:55] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 02:52:55] SMTP mode set
+[2025-05-18 02:52:55] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 02:52:55] 
+=== Preparing to send email ===
+[2025-05-18 02:52:55] To: ryzenshimura@gmail.com
+[2025-05-18 02:52:55] Subject: Appointment Status Update: Cancelled
+[2025-05-18 02:52:55] SMTP Debug: Enabled
+[2025-05-18 02:52:55] Calling send() method...
+[2025-05-18 02:52:58] send() method completed. Result: true
+[2025-05-18 02:52:58] Error Info: 
+[2025-05-18 02:52:58] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 03:07:22] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 03:07:22] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 03:07:22] Consultant: 'Riz Ivan'
+[2025-05-18 03:07:22] Date: '2025-05-24', Time: '13:05:00'
+[2025-05-18 03:07:22] Status: 'confirmed'
+[2025-05-18 03:07:22] PHPMailer instance created
+[2025-05-18 03:07:22] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 03:07:22] SMTP mode set
+[2025-05-18 03:07:22] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 03:07:22] 
+=== Preparing to send email ===
+[2025-05-18 03:07:22] To: ryzenshimura@gmail.com
+[2025-05-18 03:07:22] Subject: Appointment Status Update: Confirmed
+[2025-05-18 03:07:22] SMTP Debug: Enabled
+[2025-05-18 03:07:22] Calling send() method...
+[2025-05-18 03:07:25] send() method completed. Result: true
+[2025-05-18 03:07:25] Error Info: 
+[2025-05-18 03:07:25] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 04:03:06] === START update_booking.php ===
+[2025-05-18 04:03:06] POST params: Array
+(
+    [appointment_id] => 86
+    [status] => approved
+)
+
+[2025-05-18 04:03:06] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 04:03:06] USER: 16, ROLE: consultant
+[2025-05-18 04:03:06] POST data: Array
+(
+    [appointment_id] => 86
+    [status] => approved
+)
+
+[2025-05-18 04:03:06] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 04:03:06] Recipient: ryzenshimura@gmail.com
+[2025-05-18 04:03:06] Consultant: Riz Ivan
+[2025-05-18 04:03:06] Date: 2025-05-24, Time: 18:05:00
+[2025-05-18 04:03:06] Status: approved
+[2025-05-18 04:03:06] PHPMailer instance created
+[2025-05-18 04:03:06] SMTP mode set
+[2025-05-18 04:03:06] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 04:03:06] Recipients set: From vaniverana@gmail.com to ryzenshimura@gmail.com
+[2025-05-18 04:03:06] 
+=== Preparing to send email ===
+[2025-05-18 04:03:06] To: ryzenshimura@gmail.com
+[2025-05-18 04:03:06] Subject: Appointment Status Update: Approved
+[2025-05-18 04:03:06] SMTP Debug: Enabled
+[2025-05-18 04:03:06] Calling send() method...
+[2025-05-18 04:03:06] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-30e33451a06sm7728955a91.21 - gsmtp
+
+[2025-05-18 04:03:06] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:03:06] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:03:06] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 04:03:07] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 04:03:07] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:03:07] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:03:07] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 04:03:07] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 04:03:07] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:03:07] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 04:03:07] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:03:08] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 04:03:08] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-30e33451a06sm7728955a91.21 - gsmtp
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<ryzenshimura@gmail.com>
+
+[2025-05-18 04:03:08] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-30e33451a06sm7728955a91.21 - gsmtp
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 04:03:08] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-30e33451a06sm7728955a91.21 - gsmtp
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 04:03:06 +0200
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: To: ryzenshimura@gmail.com
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Approved
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: Message-ID: <vbAxIhLGXR4wWWhbTNYDeUrVQxnABFIiOT67OHIhoI@localhost>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_vbAxIhLGXR4wWWhbTNYDeUrVQxnABFIiOT67OHIhoI"
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: --b1=_vbAxIhLGXR4wWWhbTNYDeUrVQxnABFIiOT67OHIhoI
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: Your appointment with Riz Ivan on 2025-05-24 at 18:05:00 has been approved.
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: --b1=_vbAxIhLGXR4wWWhbTNYDeUrVQxnABFIiOT67OHIhoI
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Approved</title>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 background: #28a745;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #28a745;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Approved</h1>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Riz Ivan</strong> has been <span class='status'>Approved</span>.</p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #28a745;'>Appointment Details</h3>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> May 24, 2025</p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 6:05 PM</p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Approved</span></p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <p>We look forward to seeing you! Please arrive 10 minutes before your scheduled time.</p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: --b1=_vbAxIhLGXR4wWWhbTNYDeUrVQxnABFIiOT67OHIhoI--
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:03:08] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 04:03:09] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747533789 98e67ed59e1d1-30e33451a06sm7728955a91.21 - gsmtp
+
+[2025-05-18 04:03:09] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 04:03:09] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-30e33451a06sm7728955a91.21 - gsmtp
+
+[2025-05-18 04:03:09] send() method completed. Result: true
+[2025-05-18 04:03:09] Error Info: 
+[2025-05-18 04:03:09] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 04:04:31] === START update_booking.php ===
+[2025-05-18 04:04:31] POST params: Array
+(
+    [appointment_id] => 87
+    [status] => rejected
+)
+
+[2025-05-18 04:04:31] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 04:04:31] USER: 16, ROLE: consultant
+[2025-05-18 04:04:31] POST data: Array
+(
+    [appointment_id] => 87
+    [status] => rejected
+)
+
+[2025-05-18 04:04:31] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 04:04:31] Recipient: ryzenshimura@gmail.com
+[2025-05-18 04:04:31] Consultant: Riz Ivan
+[2025-05-18 04:04:31] Date: 2025-05-24, Time: 19:05:00
+[2025-05-18 04:04:31] Status: rejected
+[2025-05-18 04:04:31] PHPMailer instance created
+[2025-05-18 04:04:31] SMTP mode set
+[2025-05-18 04:04:31] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 04:04:31] Recipients set: From vaniverana@gmail.com to ryzenshimura@gmail.com
+[2025-05-18 04:04:31] 
+=== Preparing to send email ===
+[2025-05-18 04:04:31] To: ryzenshimura@gmail.com
+[2025-05-18 04:04:31] Subject: Appointment Status Update: Rejected
+[2025-05-18 04:04:31] SMTP Debug: Enabled
+[2025-05-18 04:04:31] Calling send() method...
+[2025-05-18 04:04:32] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-30e7d591862sm4011944a91.47 - gsmtp
+
+[2025-05-18 04:04:32] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:04:32] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:04:32] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 04:04:32] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 04:04:32] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:04:33] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:04:33] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 04:04:33] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 04:04:33] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:04:33] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 04:04:33] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:04:33] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 04:04:33] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 04:04:33] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-30e7d591862sm4011944a91.47 - gsmtp
+
+[2025-05-18 04:04:33] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<ryzenshimura@gmail.com>
+
+[2025-05-18 04:04:34] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-30e7d591862sm4011944a91.47 - gsmtp
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 04:04:34] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-30e7d591862sm4011944a91.47 - gsmtp
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 04:04:31 +0200
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: To: ryzenshimura@gmail.com
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Rejected
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: Message-ID: <DrW4HE0gT0cbaAYolNT33pjo6YTxBKuz0mErnjF0ZPE@localhost>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_DrW4HE0gT0cbaAYolNT33pjo6YTxBKuz0mErnjF0ZPE"
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: --b1=_DrW4HE0gT0cbaAYolNT33pjo6YTxBKuz0mErnjF0ZPE
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: Your appointment with Riz Ivan on 2025-05-24 at 19:05:00 has been rejected.
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: --b1=_DrW4HE0gT0cbaAYolNT33pjo6YTxBKuz0mErnjF0ZPE
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Rejected</title>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 background: #dc3545;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #dc3545;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Rejected</h1>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Riz Ivan</strong> has been <span class='status'>Rejected</span>.</p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #dc3545;'>Appointment Details</h3>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> May 24, 2025</p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 7:05 PM</p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Rejected</span></p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <p>If you have any questions or need to reschedule, please contact us.</p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: --b1=_DrW4HE0gT0cbaAYolNT33pjo6YTxBKuz0mErnjF0ZPE--
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:04:34] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 04:04:35] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747533874 98e67ed59e1d1-30e7d591862sm4011944a91.47 - gsmtp
+
+[2025-05-18 04:04:35] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 04:04:35] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-30e7d591862sm4011944a91.47 - gsmtp
+
+[2025-05-18 04:04:35] send() method completed. Result: true
+[2025-05-18 04:04:35] Error Info: 
+[2025-05-18 04:04:35] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 04:06:40] === START update_booking.php ===
+[2025-05-18 04:06:40] POST params: Array
+(
+    [appointment_id] => 89
+    [status] => approved
+)
+
+[2025-05-18 04:06:40] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 04:06:40] USER: 16, ROLE: consultant
+[2025-05-18 04:06:40] POST data: Array
+(
+    [appointment_id] => 89
+    [status] => approved
+)
+
+[2025-05-18 04:06:40] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 04:06:40] Recipient: torresaprilene@gmail.com
+[2025-05-18 04:06:40] Consultant: Riz Ivan
+[2025-05-18 04:06:40] Date: 2025-06-01, Time: 15:30:00
+[2025-05-18 04:06:40] Status: approved
+[2025-05-18 04:06:40] PHPMailer instance created
+[2025-05-18 04:06:40] SMTP mode set
+[2025-05-18 04:06:40] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 04:06:40] Recipients set: From vaniverana@gmail.com to torresaprilene@gmail.com
+[2025-05-18 04:06:40] 
+=== Preparing to send email ===
+[2025-05-18 04:06:40] To: torresaprilene@gmail.com
+[2025-05-18 04:06:40] Subject: Appointment Status Update: Approved
+[2025-05-18 04:06:40] SMTP Debug: Enabled
+[2025-05-18 04:06:40] Calling send() method...
+[2025-05-18 04:06:40] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-742a9860d46sm3781653b3a.127 - gsmtp
+
+[2025-05-18 04:06:40] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:06:41] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:06:41] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 04:06:41] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 04:06:41] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:06:41] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:06:41] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 04:06:41] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 04:06:41] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:06:41] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 04:06:41] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:06:42] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 04:06:42] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 04:06:42] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-742a9860d46sm3781653b3a.127 - gsmtp
+
+[2025-05-18 04:06:42] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<torresaprilene@gmail.com>
+
+[2025-05-18 04:06:42] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-742a9860d46sm3781653b3a.127 - gsmtp
+
+[2025-05-18 04:06:42] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 04:06:43] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-742a9860d46sm3781653b3a.127 - gsmtp
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 04:06:40 +0200
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: To: torresaprilene@gmail.com
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Approved
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: Message-ID: <4AFTJaDmRvd2w2joNA4DYCbrB8IrJXhaprPSYFs6E@localhost>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_4AFTJaDmRvd2w2joNA4DYCbrB8IrJXhaprPSYFs6E"
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: --b1=_4AFTJaDmRvd2w2joNA4DYCbrB8IrJXhaprPSYFs6E
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: Your appointment with Riz Ivan on 2025-06-01 at 15:30:00 has been approved.
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: --b1=_4AFTJaDmRvd2w2joNA4DYCbrB8IrJXhaprPSYFs6E
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Approved</title>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 background: #28a745;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #28a745;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Approved</h1>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Riz Ivan</strong> has been <span class='status'>Approved</span>.</p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #28a745;'>Appointment Details</h3>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> June 1, 2025</p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 3:30 PM</p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Approved</span></p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <p>We look forward to seeing you! Please arrive 10 minutes before your scheduled time.</p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: --b1=_4AFTJaDmRvd2w2joNA4DYCbrB8IrJXhaprPSYFs6E--
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 04:06:43] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747534003 d2e1a72fcca58-742a9860d46sm3781653b3a.127 - gsmtp
+
+[2025-05-18 04:06:43] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 04:06:44] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-742a9860d46sm3781653b3a.127 - gsmtp
+
+[2025-05-18 04:06:44] send() method completed. Result: true
+[2025-05-18 04:06:44] Error Info: 
+[2025-05-18 04:06:44] Email sent successfully to: torresaprilene@gmail.com
+[2025-05-18 04:06:44] === START update_booking.php ===
+[2025-05-18 04:06:44] POST params: Array
+(
+    [appointment_id] => 89
+    [status] => approved
+)
+
+[2025-05-18 04:06:44] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 04:06:44] USER: 16, ROLE: consultant
+[2025-05-18 04:06:44] POST data: Array
+(
+    [appointment_id] => 89
+    [status] => approved
+)
+
+[2025-05-18 04:06:44] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 04:06:44] Recipient: torresaprilene@gmail.com
+[2025-05-18 04:06:44] Consultant: Riz Ivan
+[2025-05-18 04:06:44] Date: 2025-06-01, Time: 15:30:00
+[2025-05-18 04:06:44] Status: approved
+[2025-05-18 04:06:44] PHPMailer instance created
+[2025-05-18 04:06:44] SMTP mode set
+[2025-05-18 04:06:44] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 04:06:44] Recipients set: From vaniverana@gmail.com to torresaprilene@gmail.com
+[2025-05-18 04:06:44] 
+=== Preparing to send email ===
+[2025-05-18 04:06:44] To: torresaprilene@gmail.com
+[2025-05-18 04:06:44] Subject: Appointment Status Update: Approved
+[2025-05-18 04:06:44] SMTP Debug: Enabled
+[2025-05-18 04:06:44] Calling send() method...
+[2025-05-18 04:06:44] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231ecd5ea41sm28174485ad.228 - gsmtp
+
+[2025-05-18 04:06:44] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:06:44] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:06:44] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 04:06:44] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 04:06:44] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:06:44] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:06:44] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 04:06:45] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 04:06:45] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:06:45] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 04:06:45] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:06:45] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 04:06:45] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 04:06:45] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-231ecd5ea41sm28174485ad.228 - gsmtp
+
+[2025-05-18 04:06:45] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<torresaprilene@gmail.com>
+
+[2025-05-18 04:06:46] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-231ecd5ea41sm28174485ad.228 - gsmtp
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 04:06:46] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead d9443c01a7336-231ecd5ea41sm28174485ad.228 - gsmtp
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 04:06:44 +0200
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: To: torresaprilene@gmail.com
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Approved
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: Message-ID: <EzjDXUbkKhD9BXXGfwmEF9fSbJOxF2v9rY4fxnI1X6I@localhost>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_EzjDXUbkKhD9BXXGfwmEF9fSbJOxF2v9rY4fxnI1X6I"
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: --b1=_EzjDXUbkKhD9BXXGfwmEF9fSbJOxF2v9rY4fxnI1X6I
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: Your appointment with Riz Ivan on 2025-06-01 at 15:30:00 has been approved.
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: --b1=_EzjDXUbkKhD9BXXGfwmEF9fSbJOxF2v9rY4fxnI1X6I
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Approved</title>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 background: #28a745;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #28a745;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Approved</h1>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Riz Ivan</strong> has been <span class='status'>Approved</span>.</p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #28a745;'>Appointment Details</h3>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> June 1, 2025</p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 3:30 PM</p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Approved</span></p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <p>We look forward to seeing you! Please arrive 10 minutes before your scheduled time.</p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: --b1=_EzjDXUbkKhD9BXXGfwmEF9fSbJOxF2v9rY4fxnI1X6I--
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:06:46] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 04:06:47] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747534006 d9443c01a7336-231ecd5ea41sm28174485ad.228 - gsmtp
+
+[2025-05-18 04:06:47] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 04:06:47] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231ecd5ea41sm28174485ad.228 - gsmtp
+
+[2025-05-18 04:06:47] send() method completed. Result: true
+[2025-05-18 04:06:47] Error Info: 
+[2025-05-18 04:06:47] Email sent successfully to: torresaprilene@gmail.com
+[2025-05-18 04:09:28] === START update_booking.php ===
+[2025-05-18 04:09:28] POST params: Array
+(
+    [appointment_id] => 88
+    [status] => rejected
+)
+
+[2025-05-18 04:09:28] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 04:09:28] USER: 16, ROLE: consultant
+[2025-05-18 04:09:28] POST data: Array
+(
+    [appointment_id] => 88
+    [status] => rejected
+)
+
+[2025-05-18 04:09:28] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 04:09:28] Recipient: ryzenshimura@gmail.com
+[2025-05-18 04:09:28] Consultant: Riz Ivan
+[2025-05-18 04:09:28] Date: 2025-05-24, Time: 20:05:00
+[2025-05-18 04:09:28] Status: rejected
+[2025-05-18 04:09:28] PHPMailer instance created
+[2025-05-18 04:09:28] SMTP mode set
+[2025-05-18 04:09:28] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 04:09:28] Recipients set: From vaniverana@gmail.com to ryzenshimura@gmail.com
+[2025-05-18 04:09:28] 
+=== Preparing to send email ===
+[2025-05-18 04:09:28] To: ryzenshimura@gmail.com
+[2025-05-18 04:09:28] Subject: Appointment Status Update: Rejected
+[2025-05-18 04:09:28] SMTP Debug: Enabled
+[2025-05-18 04:09:28] Calling send() method...
+[2025-05-18 04:09:28] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231d4e9605csm36462685ad.123 - gsmtp
+
+[2025-05-18 04:09:28] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:09:28] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:09:28] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 04:09:28] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 04:09:28] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 04:09:29] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 04:09:29] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 04:09:29] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 04:09:29] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:09:29] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 04:09:29] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 04:09:29] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 04:09:29] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 04:09:29] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-231d4e9605csm36462685ad.123 - gsmtp
+
+[2025-05-18 04:09:29] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<ryzenshimura@gmail.com>
+
+[2025-05-18 04:09:30] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-231d4e9605csm36462685ad.123 - gsmtp
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 04:09:30] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead d9443c01a7336-231d4e9605csm36462685ad.123 - gsmtp
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 04:09:28 +0200
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: To: ryzenshimura@gmail.com
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Rejected
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: Message-ID: <klUMRQlAGIyjB88H3uilk3IQUXtPvqvtahvbYtoqBzk@localhost>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_klUMRQlAGIyjB88H3uilk3IQUXtPvqvtahvbYtoqBzk"
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: --b1=_klUMRQlAGIyjB88H3uilk3IQUXtPvqvtahvbYtoqBzk
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: Your appointment with Riz Ivan on 2025-05-24 at 20:05:00 has been rejected.
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: --b1=_klUMRQlAGIyjB88H3uilk3IQUXtPvqvtahvbYtoqBzk
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Rejected</title>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 background: #dc3545;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #dc3545;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Rejected</h1>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Riz Ivan</strong> has been <span class='status'>Rejected</span>.</p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #dc3545;'>Appointment Details</h3>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> May 24, 2025</p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 8:05 PM</p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Rejected</span></p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <p>If you have any questions or need to reschedule, please contact us.</p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: --b1=_klUMRQlAGIyjB88H3uilk3IQUXtPvqvtahvbYtoqBzk--
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 04:09:30] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 04:09:31] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747534170 d9443c01a7336-231d4e9605csm36462685ad.123 - gsmtp
+
+[2025-05-18 04:09:31] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 04:09:31] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231d4e9605csm36462685ad.123 - gsmtp
+
+[2025-05-18 04:09:31] send() method completed. Result: true
+[2025-05-18 04:09:31] Error Info: 
+[2025-05-18 04:09:31] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 08:03:17] === START update_booking.php ===
+[2025-05-18 08:03:17] POST params: Array
+(
+    [appointment_id] => 38
+    [status] => cancelled
+)
+
+[2025-05-18 08:03:17] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 08:03:17] USER: 16, ROLE: consultant
+[2025-05-18 08:03:17] POST data: Array
+(
+    [appointment_id] => 38
+    [status] => cancelled
+)
+
+[2025-05-18 08:03:17] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 08:03:17] Recipient: ivan26@gmail.com
+[2025-05-18 08:03:17] Consultant: Riz Ivan
+[2025-05-18 08:03:17] Date: 2025-05-09, Time: 10:00:00
+[2025-05-18 08:03:17] Status: cancelled
+[2025-05-18 08:03:17] PHPMailer instance created
+[2025-05-18 08:03:17] SMTP mode set
+[2025-05-18 08:03:17] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 08:03:17] Recipients set: From vaniverana@gmail.com to ivan26@gmail.com
+[2025-05-18 08:03:17] 
+=== Preparing to send email ===
+[2025-05-18 08:03:17] To: ivan26@gmail.com
+[2025-05-18 08:03:17] Subject: Appointment Status Update: Cancelled
+[2025-05-18 08:03:17] SMTP Debug: Enabled
+[2025-05-18 08:03:17] Calling send() method...
+[2025-05-18 08:03:18] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-b26eb0a76bdsm4042944a12.69 - gsmtp
+
+[2025-05-18 08:03:18] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 08:03:18] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 08:03:18] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 08:03:18] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 08:03:18] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 08:03:19] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 08:03:19] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 08:03:19] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 08:03:19] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 08:03:19] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 08:03:19] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 08:03:19] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 08:03:19] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 08:03:19] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-b26eb0a76bdsm4042944a12.69 - gsmtp
+
+[2025-05-18 08:03:19] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<ivan26@gmail.com>
+
+[2025-05-18 08:03:20] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-b26eb0a76bdsm4042944a12.69 - gsmtp
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 08:03:20] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-b26eb0a76bdsm4042944a12.69 - gsmtp
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 08:03:17 +0200
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: To: ivan26@gmail.com
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Cancelled
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: Message-ID: <NwqypQJ6gw5VMd2jmwUB0qWclP9bnlQKRFbcDA0ml0@localhost>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_NwqypQJ6gw5VMd2jmwUB0qWclP9bnlQKRFbcDA0ml0"
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: --b1=_NwqypQJ6gw5VMd2jmwUB0qWclP9bnlQKRFbcDA0ml0
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: Your appointment with Riz Ivan on 2025-05-09 at 10:00:00 has been cancelled.
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: --b1=_NwqypQJ6gw5VMd2jmwUB0qWclP9bnlQKRFbcDA0ml0
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Cancelled</title>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 background: #ffc107;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #ffc107;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Cancelled</h1>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Riz Ivan</strong> has been <span class='status'>Cancelled</span>.</p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #ffc107;'>Appointment Details</h3>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> May 9, 2025</p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 10:00 AM</p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Cancelled</span></p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <p>If you have any questions or need to reschedule, please contact us.</p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: --b1=_NwqypQJ6gw5VMd2jmwUB0qWclP9bnlQKRFbcDA0ml0--
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:03:20] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 08:03:21] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747548200 41be03b00d2f7-b26eb0a76bdsm4042944a12.69 - gsmtp
+
+[2025-05-18 08:03:21] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 08:03:21] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-b26eb0a76bdsm4042944a12.69 - gsmtp
+
+[2025-05-18 08:03:21] send() method completed. Result: true
+[2025-05-18 08:03:21] Error Info: 
+[2025-05-18 08:03:21] Email sent successfully to: ivan26@gmail.com
+[2025-05-18 08:50:30] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 08:50:30] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 08:50:30] Consultant: 'Riz Ivan'
+[2025-05-18 08:50:30] Date: '2025-06-01', Time: '15:30:00'
+[2025-05-18 08:50:30] Status: 'confirmed'
+[2025-05-18 08:50:30] PHPMailer instance created
+[2025-05-18 08:50:30] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 08:50:30] SMTP mode set
+[2025-05-18 08:50:30] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 08:50:30] 
+=== Preparing to send email ===
+[2025-05-18 08:50:30] To: ryzenshimura@gmail.com
+[2025-05-18 08:50:30] Subject: Appointment Status Update: Confirmed
+[2025-05-18 08:50:30] SMTP Debug: Enabled
+[2025-05-18 08:50:30] Calling send() method...
+[2025-05-18 08:50:34] send() method completed. Result: true
+[2025-05-18 08:50:34] Error Info: 
+[2025-05-18 08:50:34] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 08:57:29] === START update_booking.php ===
+[2025-05-18 08:57:29] POST params: Array
+(
+    [appointment_id] => 90
+    [status] => approved
+)
+
+[2025-05-18 08:57:29] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 08:57:29] USER: 18, ROLE: consultant
+[2025-05-18 08:57:29] POST data: Array
+(
+    [appointment_id] => 90
+    [status] => approved
+)
+
+[2025-05-18 08:57:29] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 08:57:29] Recipient: ryzenshimura@gmail.com
+[2025-05-18 08:57:29] Consultant: Espinile
+[2025-05-18 08:57:29] Date: 2025-05-19, Time: 14:00:00
+[2025-05-18 08:57:29] Status: approved
+[2025-05-18 08:57:29] PHPMailer instance created
+[2025-05-18 08:57:29] SMTP mode set
+[2025-05-18 08:57:29] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 08:57:29] Recipients set: From vaniverana@gmail.com to ryzenshimura@gmail.com
+[2025-05-18 08:57:29] 
+=== Preparing to send email ===
+[2025-05-18 08:57:29] To: ryzenshimura@gmail.com
+[2025-05-18 08:57:29] Subject: Appointment Status Update: Approved
+[2025-05-18 08:57:29] SMTP Debug: Enabled
+[2025-05-18 08:57:29] Calling send() method...
+[2025-05-18 08:57:30] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231d4ebb084sm39356725ad.201 - gsmtp
+
+[2025-05-18 08:57:30] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 08:57:30] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 08:57:30] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 08:57:30] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 08:57:30] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 08:57:30] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 08:57:30] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 08:57:30] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 08:57:30] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 08:57:31] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 08:57:31] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 08:57:31] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 08:57:31] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 08:57:31] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-231d4ebb084sm39356725ad.201 - gsmtp
+
+[2025-05-18 08:57:31] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<ryzenshimura@gmail.com>
+
+[2025-05-18 08:57:31] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-231d4ebb084sm39356725ad.201 - gsmtp
+
+[2025-05-18 08:57:31] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 08:57:32] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead d9443c01a7336-231d4ebb084sm39356725ad.201 - gsmtp
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 08:57:29 +0200
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: To: ryzenshimura@gmail.com
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Approved
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: Message-ID: <WQd2StKLYElQzQ7ASiEeDxKmGTKQg3OukKonplLUgw@localhost>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_WQd2StKLYElQzQ7ASiEeDxKmGTKQg3OukKonplLUgw"
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: --b1=_WQd2StKLYElQzQ7ASiEeDxKmGTKQg3OukKonplLUgw
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: Your appointment with Espinile on 2025-05-19 at 14:00:00 has been approved.
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: --b1=_WQd2StKLYElQzQ7ASiEeDxKmGTKQg3OukKonplLUgw
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Approved</title>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 background: #28a745;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #28a745;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Approved</h1>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Espinile</strong> has been <span class='status'>Approved</span>.</p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #28a745;'>Appointment Details</h3>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> May 19, 2025</p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 2:00 PM</p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Approved</span></p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <p>We look forward to seeing you! Please arrive 10 minutes before your scheduled time.</p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: --b1=_WQd2StKLYElQzQ7ASiEeDxKmGTKQg3OukKonplLUgw--
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 08:57:32] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747551452 d9443c01a7336-231d4ebb084sm39356725ad.201 - gsmtp
+
+[2025-05-18 08:57:32] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 08:57:33] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231d4ebb084sm39356725ad.201 - gsmtp
+
+[2025-05-18 08:57:33] send() method completed. Result: true
+[2025-05-18 08:57:33] Error Info: 
+[2025-05-18 08:57:33] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 09:39:25] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 09:39:25] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 09:39:25] Consultant: 'Riz Ivan'
+[2025-05-18 09:39:25] Date: '2025-05-29', Time: '12:21:00'
+[2025-05-18 09:39:25] Status: 'confirmed'
+[2025-05-18 09:39:25] PHPMailer instance created
+[2025-05-18 09:39:25] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:39:25] SMTP mode set
+[2025-05-18 09:39:25] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:39:25] 
+=== Preparing to send email ===
+[2025-05-18 09:39:25] To: ryzenshimura@gmail.com
+[2025-05-18 09:39:25] Subject: Appointment Status Update: Confirmed
+[2025-05-18 09:39:25] SMTP Debug: Enabled
+[2025-05-18 09:39:25] Calling send() method...
+[2025-05-18 09:39:28] send() method completed. Result: true
+[2025-05-18 09:39:28] Error Info: 
+[2025-05-18 09:39:28] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 09:43:23] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 09:43:23] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 09:43:23] Consultant: 'Riz Ivan'
+[2025-05-18 09:43:23] Date: '2025-05-29', Time: '09:21 AM'
+[2025-05-18 09:43:23] Status: 'confirmed'
+[2025-05-18 09:43:23] PHPMailer instance created
+[2025-05-18 09:43:23] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:43:23] SMTP mode set
+[2025-05-18 09:43:23] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:43:23] 
+=== Preparing to send email ===
+[2025-05-18 09:43:23] To: ryzenshimura@gmail.com
+[2025-05-18 09:43:23] Subject: Appointment Status Update: Confirmed
+[2025-05-18 09:43:23] SMTP Debug: Enabled
+[2025-05-18 09:43:23] Calling send() method...
+[2025-05-18 09:43:27] send() method completed. Result: true
+[2025-05-18 09:43:27] Error Info: 
+[2025-05-18 09:43:27] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 09:43:59] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 09:43:59] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 09:43:59] Consultant: 'Riz Ivan'
+[2025-05-18 09:43:59] Date: '2025-06-01', Time: '02:08 AM'
+[2025-05-18 09:43:59] Status: 'cancelled'
+[2025-05-18 09:43:59] PHPMailer instance created
+[2025-05-18 09:43:59] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:43:59] SMTP mode set
+[2025-05-18 09:43:59] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:43:59] 
+=== Preparing to send email ===
+[2025-05-18 09:43:59] To: ryzenshimura@gmail.com
+[2025-05-18 09:43:59] Subject: Appointment Status Update: Cancelled
+[2025-05-18 09:43:59] SMTP Debug: Enabled
+[2025-05-18 09:43:59] Calling send() method...
+[2025-05-18 09:44:03] send() method completed. Result: true
+[2025-05-18 09:44:03] Error Info: 
+[2025-05-18 09:44:03] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 09:44:19] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 09:44:19] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 09:44:19] Consultant: 'Riz Ivan'
+[2025-05-18 09:44:19] Date: '2025-06-01', Time: '02:08 AM'
+[2025-05-18 09:44:19] Status: 'confirmed'
+[2025-05-18 09:44:19] PHPMailer instance created
+[2025-05-18 09:44:19] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:44:19] SMTP mode set
+[2025-05-18 09:44:19] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:44:19] 
+=== Preparing to send email ===
+[2025-05-18 09:44:19] To: ryzenshimura@gmail.com
+[2025-05-18 09:44:19] Subject: Appointment Status Update: Confirmed
+[2025-05-18 09:44:19] SMTP Debug: Enabled
+[2025-05-18 09:44:19] Calling send() method...
+[2025-05-18 09:44:22] send() method completed. Result: true
+[2025-05-18 09:44:22] Error Info: 
+[2025-05-18 09:44:22] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 09:44:28] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 09:44:28] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 09:44:28] Consultant: 'Riz Ivan'
+[2025-05-18 09:44:28] Date: '2025-06-01', Time: '02:08 AM'
+[2025-05-18 09:44:28] Status: 'confirmed'
+[2025-05-18 09:44:28] PHPMailer instance created
+[2025-05-18 09:44:28] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:44:28] SMTP mode set
+[2025-05-18 09:44:28] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:44:28] 
+=== Preparing to send email ===
+[2025-05-18 09:44:28] To: ryzenshimura@gmail.com
+[2025-05-18 09:44:28] Subject: Appointment Status Update: Confirmed
+[2025-05-18 09:44:28] SMTP Debug: Enabled
+[2025-05-18 09:44:28] Calling send() method...
+[2025-05-18 09:44:31] send() method completed. Result: true
+[2025-05-18 09:44:31] Error Info: 
+[2025-05-18 09:44:31] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 09:44:45] 
+=== Starting sendAppointmentConfirmation ===
+[2025-05-18 09:44:45] Recipient: 'ryzenshimura@gmail.com'
+[2025-05-18 09:44:45] Consultant: 'Riz Ivan'
+[2025-05-18 09:44:45] Date: '2025-06-01', Time: '02:08 AM'
+[2025-05-18 09:44:45] Status: 'confirmed'
+[2025-05-18 09:44:45] PHPMailer instance created
+[2025-05-18 09:44:45] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:44:45] SMTP mode set
+[2025-05-18 09:44:45] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 09:44:45] 
+=== Preparing to send email ===
+[2025-05-18 09:44:45] To: ryzenshimura@gmail.com
+[2025-05-18 09:44:45] Subject: Appointment Status Update: Confirmed
+[2025-05-18 09:44:45] SMTP Debug: Enabled
+[2025-05-18 09:44:45] Calling send() method...
+[2025-05-18 09:44:48] send() method completed. Result: true
+[2025-05-18 09:44:48] Error Info: 
+[2025-05-18 09:44:48] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 11:05:01] === START update_booking.php ===
+[2025-05-18 11:05:01] POST params: Array
+(
+    [appointment_id] => 93
+    [status] => approved
+)
+
+[2025-05-18 11:05:01] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 11:05:01] USER: 23, ROLE: consultant
+[2025-05-18 11:05:01] POST data: Array
+(
+    [appointment_id] => 93
+    [status] => approved
+)
+
+[2025-05-18 11:05:01] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 11:05:01] Recipient: ryzenshimura@gmail.com
+[2025-05-18 11:05:01] Consultant: Alejandro Santos
+[2025-05-18 11:05:01] Date: 2025-05-27, Time: 04:47:00
+[2025-05-18 11:05:01] Status: approved
+[2025-05-18 11:05:01] PHPMailer instance created
+[2025-05-18 11:05:01] SMTP mode set
+[2025-05-18 11:05:01] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 11:05:01] Recipients set: From vaniverana@gmail.com to ryzenshimura@gmail.com
+[2025-05-18 11:05:01] 
+=== Preparing to send email ===
+[2025-05-18 11:05:01] To: ryzenshimura@gmail.com
+[2025-05-18 11:05:01] Subject: Appointment Status Update: Approved
+[2025-05-18 11:05:01] SMTP Debug: Enabled
+[2025-05-18 11:05:01] Calling send() method...
+[2025-05-18 11:05:01] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-30e83378582sm4296419a91.3 - gsmtp
+
+[2025-05-18 11:05:01] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 11:05:01] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 11:05:01] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 11:05:01] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 11:05:01] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 11:05:02] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 11:05:02] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 11:05:02] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 11:05:02] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 11:05:02] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 11:05:02] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 11:05:02] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 11:05:02] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 11:05:02] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-30e83378582sm4296419a91.3 - gsmtp
+
+[2025-05-18 11:05:02] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<ryzenshimura@gmail.com>
+
+[2025-05-18 11:05:03] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-30e83378582sm4296419a91.3 - gsmtp
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 11:05:03] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-30e83378582sm4296419a91.3 - gsmtp
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 11:05:01 +0200
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: To: ryzenshimura@gmail.com
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Approved
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: Message-ID: <eN3q5njsOBCaLzY3G12FZFx8oMIKaWIcgSCGDN46HY@localhost>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_eN3q5njsOBCaLzY3G12FZFx8oMIKaWIcgSCGDN46HY"
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: --b1=_eN3q5njsOBCaLzY3G12FZFx8oMIKaWIcgSCGDN46HY
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: Your appointment with Alejandro Santos on 2025-05-27 at 04:47:00 has been approved.
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: --b1=_eN3q5njsOBCaLzY3G12FZFx8oMIKaWIcgSCGDN46HY
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Approved</title>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 background: #28a745;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #28a745;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Approved</h1>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Alejandro Santos</strong> has been <span class='status'>Approved</span>.</p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #28a745;'>Appointment Details</h3>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> May 27, 2025</p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 4:47 AM</p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Approved</span></p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <p>We look forward to seeing you! Please arrive 10 minutes before your scheduled time.</p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: --b1=_eN3q5njsOBCaLzY3G12FZFx8oMIKaWIcgSCGDN46HY--
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:05:03] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 11:05:04] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747559103 98e67ed59e1d1-30e83378582sm4296419a91.3 - gsmtp
+
+[2025-05-18 11:05:04] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 11:05:04] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-30e83378582sm4296419a91.3 - gsmtp
+
+[2025-05-18 11:05:04] send() method completed. Result: true
+[2025-05-18 11:05:04] Error Info: 
+[2025-05-18 11:05:04] Email sent successfully to: ryzenshimura@gmail.com
+[2025-05-18 11:22:58] === START update_booking.php ===
+[2025-05-18 11:22:58] POST params: Array
+(
+    [appointment_id] => 94
+    [status] => approved
+)
+
+[2025-05-18 11:22:58] 
+=== CONSULTANT INTERFACE APPOINTMENT UPDATE ===
+[2025-05-18 11:22:58] USER: 18, ROLE: consultant
+[2025-05-18 11:22:58] POST data: Array
+(
+    [appointment_id] => 94
+    [status] => approved
+)
+
+[2025-05-18 11:22:58] 
+=== Starting sendAppointmentEmail ===
+[2025-05-18 11:22:58] Recipient: ryzenshimura@gmail.com
+[2025-05-18 11:22:58] Consultant: Espinile
+[2025-05-18 11:22:58] Date: 2025-05-19, Time: 14:30:00
+[2025-05-18 11:22:58] Status: approved
+[2025-05-18 11:22:58] PHPMailer instance created
+[2025-05-18 11:22:58] SMTP mode set
+[2025-05-18 11:22:58] SMTP Configuration:
+Host: smtp.gmail.com
+Port: 587
+Username: vaniverana@gmail.com
+Encryption: tls
+[2025-05-18 11:22:58] Recipients set: From vaniverana@gmail.com to ryzenshimura@gmail.com
+[2025-05-18 11:22:58] 
+=== Preparing to send email ===
+[2025-05-18 11:22:58] To: ryzenshimura@gmail.com
+[2025-05-18 11:22:58] Subject: Appointment Status Update: Approved
+[2025-05-18 11:22:58] SMTP Debug: Enabled
+[2025-05-18 11:22:58] Calling send() method...
+[2025-05-18 11:22:59] PHPMailer (2): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-742a9876e62sm4374110b3a.147 - gsmtp
+
+[2025-05-18 11:22:59] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 11:22:59] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 11:22:59] PHPMailer (1): CLIENT -> SERVER: STARTTLS
+
+[2025-05-18 11:22:59] PHPMailer (2): SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-05-18 11:22:59] PHPMailer (1): CLIENT -> SERVER: EHLO localhost
+
+[2025-05-18 11:22:59] PHPMailer (2): SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.158.66.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-05-18 11:22:59] PHPMailer (1): CLIENT -> SERVER: AUTH LOGIN
+
+[2025-05-18 11:23:00] PHPMailer (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-05-18 11:23:00] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 11:23:00] PHPMailer (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-05-18 11:23:00] PHPMailer (1): CLIENT -> SERVER: [credentials hidden]
+[2025-05-18 11:23:00] PHPMailer (2): SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-05-18 11:23:00] PHPMailer (1): CLIENT -> SERVER: MAIL FROM:<vaniverana@gmail.com>
+
+[2025-05-18 11:23:00] PHPMailer (2): SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-742a9876e62sm4374110b3a.147 - gsmtp
+
+[2025-05-18 11:23:00] PHPMailer (1): CLIENT -> SERVER: RCPT TO:<ryzenshimura@gmail.com>
+
+[2025-05-18 11:23:00] PHPMailer (2): SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-742a9876e62sm4374110b3a.147 - gsmtp
+
+[2025-05-18 11:23:00] PHPMailer (1): CLIENT -> SERVER: DATA
+
+[2025-05-18 11:23:01] PHPMailer (2): SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-742a9876e62sm4374110b3a.147 - gsmtp
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: Date: Sun, 18 May 2025 11:22:58 +0200
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: To: ryzenshimura@gmail.com
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: From: Consultant Appointment System <vaniverana@gmail.com>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: Subject: Appointment Status Update: Approved
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: Message-ID: <pxaJ52BlKmqjQdPfC6nhoQUsL1k70p4NHKmGhdKaHxc@localhost>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:  boundary="b1=_pxaJ52BlKmqjQdPfC6nhoQUsL1k70p4NHKmGhdKaHxc"
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: --b1=_pxaJ52BlKmqjQdPfC6nhoQUsL1k70p4NHKmGhdKaHxc
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: Your appointment with Espinile on 2025-05-19 at 14:30:00 has been approved.
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: --b1=_pxaJ52BlKmqjQdPfC6nhoQUsL1k70p4NHKmGhdKaHxc
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:     <!DOCTYPE html>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:     <html>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:     <head>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:         <title>Appointment Approved</title>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:         <style>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; }
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             .header { background: #007bff; color: white; padding: 20px; text-align: center; }
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             .content { padding: 30px; }
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             .status { 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 padding: 8px 16px; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 20px; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 color: white;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 background: #28a745;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 margin: 5px 0;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             .details { 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 background: #f8f9fa; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 margin: 20px 0;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 border-left: 4px solid #28a745;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             .footer { 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 margin-top: 30px; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 padding: 20px; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 text-align: center;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 font-size: 0.9em; 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 color: #6c757d;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 border-top: 1px solid #eee;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             .button {
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 display: inline-block;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 padding: 10px 20px;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 margin: 15px 0;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 background: #007bff;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 color: white !important;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 text-decoration: none;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 border-radius: 5px;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             }
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:         </style>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:     </head>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:     <body>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:         <div class='container'>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             <div class='header'>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <h1 style='margin:0;'>Appointment Approved</h1>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             <div class='content'>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <p>Hello,</p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <p>Your appointment with <strong>Espinile</strong> has been <span class='status'>Approved</span>.</p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <div class='details'>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                     <h3 style='margin-top:0; color: #28a745;'>Appointment Details</h3>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Date:</strong> May 19, 2025</p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Time:</strong> 2:30 PM</p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                     <p><strong>Status:</strong> <span class='status'>Approved</span></p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 </div>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <p>We look forward to seeing you! Please arrive 10 minutes before your scheduled time.</p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <a href='mailto:vaniverana@gmail.com' class='button'>Contact Us</a>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <p>Best regards,<br>Consultant Appointment System Team</p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             <div class='footer'>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:                 <p>&copy; 2025 Consultant Appointment System. All rights reserved.</p>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:             </div>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:         </div>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:     </body>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER:     </html>
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: --b1=_pxaJ52BlKmqjQdPfC6nhoQUsL1k70p4NHKmGhdKaHxc--
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: 
+
+[2025-05-18 11:23:01] PHPMailer (1): CLIENT -> SERVER: .
+
+[2025-05-18 11:23:02] PHPMailer (2): SERVER -> CLIENT: 250 2.0.0 OK  1747560181 d2e1a72fcca58-742a9876e62sm4374110b3a.147 - gsmtp
+
+[2025-05-18 11:23:02] PHPMailer (1): CLIENT -> SERVER: QUIT
+
+[2025-05-18 11:23:02] PHPMailer (2): SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-742a9876e62sm4374110b3a.147 - gsmtp
+
+[2025-05-18 11:23:02] send() method completed. Result: true
+[2025-05-18 11:23:02] Error Info: 
+[2025-05-18 11:23:02] Email sent successfully to: ryzenshimura@gmail.com
