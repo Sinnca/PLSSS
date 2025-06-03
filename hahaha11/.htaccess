@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Handle requests for non-existent files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L,QSA]
+
+# PHP error settings
+php_flag display_errors on
+php_value error_reporting E_ALL
+
+# Allow access from all domains
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>

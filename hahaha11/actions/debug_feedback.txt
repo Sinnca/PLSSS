@@ -1,0 +1,131 @@
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [appointment_id] => 27
+    [consultant_id] => 3
+    [rating] => 5
+    [feedback] => sasa
+)
+Array
+(
+    [appointment_id] => 27
+    [consultant_id] => 3
+    [rating] => 5
+    [feedback] => sasa
+)
+Array
+(
+    [appointment_id] => 27
+    [consultant_id] => 3
+    [rating] => 5
+    [feedback] => sasa
+)
+Array
+(
+    [appointment_id] => 27
+    [consultant_id] => 3
+    [rating] => 5
+    [feedback] => sasa
+)
+Array
+(
+    [appointment_id] => 26
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => sasasasa
+)
+Array
+(
+    [appointment_id] => 26
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => sasasasa
+)
+Array
+(
+    [appointment_id] => 26
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => sasasasa
+)
+Array
+(
+    [appointment_id] => 26
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => sasasasa
+)
+Array
+(
+    [appointment_id] => 26
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => sasasasa
+)
+Array
+(
+    [appointment_id] => 26
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => sasasasa
+)
+Array
+(
+    [appointment_id] => 23
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => Hallo
+)
+Array
+(
+    [appointment_id] => 25
+    [consultant_id] => 3
+    [rating] => 5
+    [feedback] => nice wan boi
+)
+Array
+(
+    [appointment_id] => 21
+    [consultant_id] => 3
+    [rating] => 5
+    [feedback] => It really helpful. Book now!!!
+)
+Array
+(
+    [appointment_id] => 21
+    [consultant_id] => 3
+    [rating] => 5
+    [feedback] => It really helpful. Book now!!!
+)
+Array
+(
+    [appointment_id] => 19
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => may  9
+)
+Array
+(
+    [appointment_id] => 38
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => sasasa
+)
+Array
+(
+    [appointment_id] => 38
+    [consultant_id] => 3
+    [rating] => 4
+    [feedback] => sasasa
+)
